@@ -1,0 +1,40 @@
+.fileView {
+  width: 100%;
+  /* padding: 10px; */
+  margin-bottom: 2rem;
+}
+
+.fileView__row {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.fileView__titles {
+  display: flex;
+  margin-bottom: 5px;
+  color: rgb(85, 78, 78);
+}
+
+.fileView__titles > div > p {
+  color: rgb(42, 40, 40);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.fileView__titles > div > * {
+  margin: 5px;
+}
+
+.fileView__titles--left {
+  flex: 1;
+}
+
+.fileView__titles--right {
+  display: flex;
+}

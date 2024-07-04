@@ -1,0 +1,15 @@
+.sidebar{
+    width: 15%;
+    height: calc(100vh - 60px);
+    margin-right: 5px;
+}
+
+hr{
+    background-color: rgb(197, 197, 197);
+    height: 1px;
+    border: none;
+}
+
+.sidebar__itemsContainer{
+    margin-left: 10px;
+}
