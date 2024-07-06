@@ -1,5 +1,5 @@
 import driveImg from "../../media/g-drive-logo.png";
-// import profileImg from "../../media/profile.png"
+import profileImg from "../../media/profile.png"
 // import logoutImg from "../../media/logout.png"
 
 import SearchIcon from "@mui/icons-material/Search";
@@ -30,7 +30,7 @@ function header({userPhoto,signOutGoogle}) {
         </span>
         <AppsIcon />
         <button className="button-1" onClick={signOutGoogle}>logout</button>
-        <img src={userPhoto} alt="User Photo" />
+        {userPhoto === userPhoto ? <img src={userPhoto}  /> : <img src={profileImg} alt />}
       </div>
     </div>
   );

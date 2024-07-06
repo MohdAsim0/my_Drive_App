@@ -21,7 +21,7 @@ function FilesView() {
   return (
     <div className="fileView">
       <div className="fileView__row">
-        {files.slice(0, 5).map(({ id, item }) => (
+        {files.slice(0, files.length).map(({ id, item }) => (
           <FileCard key={id} name={item.caption} />
         ))}
       </div>
@@ -36,7 +36,7 @@ function FilesView() {
       </div>
       {files.map(({ id, item}) => (
         <FileItem
-        key={id}
+           key={id}
           id={id}
           caption={item.caption}
           timestamp={item.timestamp}
