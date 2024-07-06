@@ -32,7 +32,7 @@ function App() {
   };
 
   return (
-    <div className="app">
+    <>
       {user ? (
         <>
           <Header userPhoto={user.photoURL} signOutGoogle={signOutGoogle} />
@@ -48,7 +48,7 @@ function App() {
           <button onClick={handleLogin}>Log in to Google Drive</button>
         </div>
       )}
-    </div>
+    </>
   );
 }
 

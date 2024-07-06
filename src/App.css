@@ -6,6 +6,7 @@
 
 
 
+
 .app__login {
   width: 100vw;
   height: 100vh;
@@ -34,6 +35,10 @@
     gap: 0px;
 }
 
+.app__main {
+  width: 100%;
+}
+
 .sidebar {
   width: 26%;
   height: calc(100vh - 60px);
@@ -41,8 +46,18 @@
 }
 
 .sidebar__itemsContainer {
-  margin-left: 0px;
+  display: none;
 }
+
+.newFile {
+ text-align: center;
+  padding: 9px 0;
+  padding-left: 9px;
+}
+
+/* .sideIcons{
+  display: none;
+} */
 
 .fileCard {
   height: 127px;
@@ -53,13 +68,37 @@
  
   white-space: -wrap;
 }
-.fileCard--top>svg{
+.fileCard--top .fileIcon{
   font-size: 70px;
+}
+
+.header_logo>span{
+  display: none;
+
+}
+.header_searchBar {
+  width: 97%;
+}
+
+.header_icons>span{
+  display: none;
+}
+
+.header_searchContainer{
+  width: auto;
+}
+
+.header_searchBar>input {
+  flex: auto;
 }
 
 .fileView__titles > div > p {
   color: rgb(42, 40, 40);
   font-size: 1rem;
   font-weight: 600;
+}
+
+.fileView{
+  width: 100%;
 }
 }

@@ -7,7 +7,7 @@ const FileCard = ({ name }) => {
     return (
         <div className='fileCard'>
             <div className="fileCard--top">
-                <InsertDriveFileIcon style={{ fontSize: 130 }} />
+                <InsertDriveFileIcon className='fileIcon'  />
             </div>
 
             <div className="fileCard--bottom">
