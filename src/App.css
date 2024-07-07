@@ -1,4 +1,6 @@
-
+body{
+  width: 100vw;
+}
 .app__main {
   display: flex;
   gap: 2rem;
@@ -101,4 +103,26 @@
 .fileView{
   width: 100%;
 }
+}
+
+
+@media only screen and (max-width: 480px){
+  .app__main{
+    width: 100%;
+    gap: 4rem;
+  }
+  .button-1 {
+   
+    font-size: 16px;
+    font-weight: 500;
+    height: 30px;
+    line-height: 15px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 6px 8px;
+    
+}
+
+
 }
